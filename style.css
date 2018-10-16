@@ -1,0 +1,32 @@
+body{
+	background-image:url("images/bd1cae5d3efc81876c2a007f44674aa2.jpg");
+}
+.clock{
+    position:absolute;
+     left:40%;
+     top:20%
+     }
+.clock-face{
+    background:#DADEDF;
+    height:250px;
+    width:250px;
+    border:10px solid  black;
+    border-radius:50%;
+    border-color:#1261A0;
+    box-shadow:0px 0px 0.4px 0.9px #4e454780;
+    display:flex;
+    align-items:center;
+    }
+.look{
+    background:red;
+    width:119px;
+    height:5px;
+    position:absolute;
+    top:50%;
+    transform-origin:100%;
+    transform:rotate(90deg);
+    transition:all 0.05s;
+    transition-timing-function: cubic-bezier(0, 0, 0, 2.17);
+    }
+
+        
